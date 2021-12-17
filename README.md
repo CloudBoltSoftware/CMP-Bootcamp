@@ -2,5 +2,7 @@
 
 * [Forward](https://github.com/CloudBoltSoftware/RAKsGuideToCloudBolt/blob/c5a71ec54c13fcab6ad181021818f00721812cba/forward.md)
 * [Introduction](https://github.com/CloudBoltSoftware/RAKsGuideToCloudBolt/blob/c5a71ec54c13fcab6ad181021818f00721812cba/introduction.md)
-1 [Getting Started] (https://#)
+
+1. [Getting Started](01_getting_started.md)
+
 
