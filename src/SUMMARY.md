@@ -1,4 +1,4 @@
-# RAK's Guide to CloudBolt
+# CloudBolt CMP Bootcamp
 
 * [Introduction](introduction.md)
 
@@ -55,6 +55,7 @@
 - Jobs & Orders
 
 ## Security
+
 - AuthN vs AuthZ
 - LDAP/Active Directory Integration
   - Group/Role Mappings
@@ -64,65 +65,33 @@
   - ***EX: SSO Integration***
 
 ## Orchestration
-- Orchestraion
-    - Actions
-        - CB Plugins
-        - Remote Scripts
-        - Webhooks
-        - Email Actions
-    - Resource/Server Actions
-    - Multichannel Alerts
-    - Orchestration Actions
-      - ***EX: Setup an MCA target***
-    - Rules
-    - Recurring Jobs
-    - Remote Execution
+
+- Actions
+    - CB Plugins
+    - Remote Scripts
+    - Webhooks
+    - Email Actions
+- Resource/Server Actions
+  - ***EX: Create a Server Action***
+  - ***EX: Create a Resource Action***
+- Multichannel Alerts
+  - ***EX: Setup an MCA target***
+- Orchestration Actions
+- Recurring Jobs
+- Rules
+- Remote Script Execution
+
+## XaaS (Anything-as-a-Service)
+- XaaS Resources
 - Catalog
-    - XaaS
-    - Blueprints
-    
-## Cost Visbility/Management
-- Cost Management
-- Efficiency & Optimization
-
-## Governance and Compliance
-- Governance
-- Compliance
-
-## IP Address Management
-- IP Address Management
-    - CloudBolt Resource Pools
-    - PhpIPAM
-    - Infoblox
-    - Bluecat
-
-## Configuration Management
-- Configuration Management
-    - Puppet
-    - Chef
-    - Ansible
-
-## Infrstruction as Code
-- Infrastructure as Code
-    - Terraform
-    - SCM Integration
+- Blueprints
+  - Object model
+- Teardown & Discovery
+- Terraform Blueprint Items
+- Kubernetes
 
 ## Extending CloudBolt
 - Content Library
 - Extending CloudBolt
-  - XUIs
-
-## Topics
-- Efficiency
-- Terraform
-- Ansible
-- Reporting
-- CIT
-
-## Appendix
-- High-Availability Setup
-
-
-: who, what, when, where and why?
-
+  - XUI Plugins
 
