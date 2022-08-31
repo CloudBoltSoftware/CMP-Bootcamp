@@ -46,11 +46,14 @@
 - On-Prem Remote Scripting
   - Cloud-based Remote Scripting
 - [Environments](cloudbolt_object_model/environments.md)
-  - EX: Manage auto-created Environments
+  - ***EX: Manage auto-created Environments***
   - Parameters
+    - Parameter Dependencies
+    - Global vs. Local
   - Tech-Specific Parameters
 - Groups
   - Quotas
+  - Group Parameters
 - Resources
 - Jobs & Orders
 
@@ -86,7 +89,11 @@
 - Catalog
 - Blueprints
   - Object model
+- Parameters Revisitied
+  - Generated Parameters
 - Teardown & Discovery
+- Action Blueprint Items
+  - Action Inputs
 - Terraform Blueprint Items
 - Kubernetes
 
