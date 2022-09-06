@@ -1,13 +1,14 @@
 # CloudBolt CMP Bootcamp
 
 * [Introduction](introduction.md)
+* [Prerequisites](prerequisites.md)
 
 ## The CloudBolt Appliance
 
 - [Architecture](appliance/architecture.md)
   - Diagram Review
 - [Deployment](appliance/deployment.md)
-  - On-Premisis 
+  - On-Premises
     - vCenter
   - Cloud
     - AWS Marketplace
@@ -47,10 +48,12 @@
   - Cloud-based Remote Scripting
 - [Environments](cloudbolt_object_model/environments.md)
   - ***EX: Manage auto-created Environments***
-  - Parameters
-    - Parameter Dependencies
-    - Global vs. Local
   - Tech-Specific Parameters
+  - Environment Parameters
+    - Global vs. Local
+    - Required Parameters
+    - Input Validation
+    - Parameter Dependencies
 - Groups
   - Quotas
   - Group Parameters
@@ -85,8 +88,11 @@
 - Remote Script Execution
 
 ## XaaS (Anything-as-a-Service)
-- XaaS Resources
 - Catalog
+- XaaS Resource Types
+  - Services
+  - Servers
+  - User-Defined
 - Blueprints
   - Object model
 - Parameters Revisitied
@@ -99,6 +105,10 @@
 
 ## Extending CloudBolt
 - Content Library
-- Extending CloudBolt
-  - XUI Plugins
+- XUI Plugins
+  - Custom Reports
+  - Dashboard Widgets
+  - Tab Extensions
+  - Admin Extensions
+
 
