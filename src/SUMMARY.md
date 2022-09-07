@@ -2,6 +2,7 @@
 
 * [Introduction](introduction.md)
 * [Prerequisites](prerequisites.md)
+* [Getting Started](getting_started.md)
 
 ## The CloudBolt Appliance
 
