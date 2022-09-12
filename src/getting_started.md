@@ -9,6 +9,19 @@ In addition to learning about our CMP product in detail, our Bootcamp participan
 By the end of this course, participants should have everything they need to deploy and configure CMP as a self-service portal in almost any enterprise whether that enterprise is on-premises only, have embraced one-or-more public clouds or, as in most cases, are operating a hybrid cloud environment.
 
 
+## What to Bring to Bootcamp
+
+* Your laptop
+* A terminal emulator
+  * MacOS: Terminal, iTerm2
+  * Windows: Windows Terminal, PuTTY
+* A text editor or IDE
+  * Visual Studio Code
+  * PyCharm
+  * vim
+* An open mind!
+
+
 
 
 

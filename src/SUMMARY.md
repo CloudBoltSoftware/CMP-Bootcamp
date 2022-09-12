@@ -5,22 +5,19 @@
 * [Getting Started](getting_started.md)
 
 ## The CloudBolt Appliance
-
-- [Architecture](appliance/architecture.md)
-  - Diagram Review
+- [Application Architecture](appliance/architecture.md)
+- [Deployment Scenarios](appliance/deployment-arch.md)
 - [Deployment](appliance/deployment.md)
-  - On-Premises
-    - vCenter
-  - Cloud
-    - AWS Marketplace
-      - ***EX: Find CMP AWS Marketplace Image***
-    - Azure Marketplace
-      - ***EX: Find CMP Azure Marketplace Image***
-  - Upgrades
-    - ***EX: Upgrade CMP***
-- Appliance Tour
-  - ***EX: Explore CMP Appliance***
+  - [On-Prem Virtual Appliance](appliance/deployment.md#onprem)
+  - [Public Cloud Marketplace](appliance/deployment.md#marketplace)
+  - ***EX: CMP on Public Cloud Marketplaces***
+- [Upgrades](appliance/upgrades.md)
+  - ***EX: Upgrade CMP***
+- [Getting to know the Appliance](appliance/gettingtoknow.md)
+  - ***EX: Explore the CMP Appliance***
+  - ***[EX: Logging](exercises/logging.md)***
 - [Initial Setup](appliance/initial_setup.md)
+
 
 ## Python and Django
 
@@ -61,7 +58,7 @@
 - Resources
 - Jobs & Orders
 
-## Security
+## AuthN, AuthZ, and SSO
 
 - AuthN vs AuthZ
 - LDAP/Active Directory Integration
