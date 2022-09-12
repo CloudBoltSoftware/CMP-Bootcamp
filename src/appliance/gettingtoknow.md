@@ -28,6 +28,10 @@
 ### `/var/log/cloudbolt/jobs`
 * Shared via shared filesystem in HA deployment scenarios
 
+### `/etc/httpd`
+* Apache configuration files -- might be modified in the rarest of cases
+* One case for modification is to install SSL certs by modifying `/etc/httpd/conf.d/
+
 ## Other CMP-Related Directories
 
 ### `/var/www/html/cloudbolt`
@@ -39,8 +43,6 @@
 * Instance specific
 * Contained PID files for processes
 * Not too interesting
-
-> [EXERCISE: Login and access key directories](../exercises/directories.md)
 
 ## Logging
 

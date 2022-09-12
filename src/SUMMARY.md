@@ -10,17 +10,17 @@
 - [Deployment](appliance/deployment.md)
   - [On-Prem Virtual Appliance](appliance/deployment.md#onprem)
   - [Public Cloud Marketplace](appliance/deployment.md#marketplace)
-  - ***EX: CMP on Public Cloud Marketplaces***
+  - ***[EX: CMP on Public Cloud Marketplaces](exercises/marketplaces.md)***
 - [Upgrades](appliance/upgrades.md)
   - ***EX: Upgrade CMP***
 - [Getting to know the Appliance](appliance/gettingtoknow.md)
-  - ***EX: Explore the CMP Appliance***
+  - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
 - [Initial Setup](appliance/initial_setup.md)
 
 
 ## Python and Django
-
+- [Intro to Django](python_django/django_intro.md)
 - Django Management Commands
   - ***EX: View Django Management Commands***
 - Shell Plus
