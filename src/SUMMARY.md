@@ -16,6 +16,7 @@
 - [Getting to know the Appliance](appliance/gettingtoknow.md)
   - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
+- Key Processes
 - [Initial Setup](appliance/initial_setup.md)
 
 
@@ -24,11 +25,11 @@
 - [Django Management Commands](python_django/commands.md)
   - ***[EX: View Django Management Commands](exercises/commands.md)***
 - [Shell Plus](python_django/shell_plus.md)
-  - ***EX: Start shell plus***
-- Object Relational Model
-  - ***EX: Query and Update CMP Objects***
+  - ***[EX: Start shell plus](exercises/shell_plus.md)***
+- [Object Relational Model](python_django/orm.md)
+  - ***[EX: Query and Update CMP Objects](exercises/models.md)***
 - Database Migrations
-- Additional CB Commands
+- Custom Fields
 
 ## Cloudbolt Object Model
 

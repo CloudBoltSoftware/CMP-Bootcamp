@@ -22,10 +22,3 @@ If it is not, verify your PATH environment variable is correct and contains `/us
 
 Django commands are passed as first arguments to `manage.py`. Running `manage.py` without arguments will print a list of available commands. Note this list is organized by Django Application as loaded from `settings.py`. By convention, management commands are located in `/management/commands` for a given application. Most CloudBolt-provided Django commands are provided by the `utilities` application, therefore the code for these commands is located in the: `utilities.management.commands` Python module located at `/opt/cloudbolt/utilities/management/commands/`.
 
-
-
-
-
-
-
-
