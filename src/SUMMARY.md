@@ -21,13 +21,14 @@
 
 ## Python and Django
 - [Intro to Django](python_django/django_intro.md)
-- Django Management Commands
-  - ***EX: View Django Management Commands***
-- Shell Plus
+- [Django Management Commands](python_django/commands.md)
+  - ***[EX: View Django Management Commands](exercises/commands.md)***
+- [Shell Plus](python_django/shell_plus.md)
   - ***EX: Start shell plus***
 - Object Relational Model
   - ***EX: Query and Update CMP Objects***
-- Logger Configuration
+- Database Migrations
+- Additional CB Commands
 
 ## Cloudbolt Object Model
 
