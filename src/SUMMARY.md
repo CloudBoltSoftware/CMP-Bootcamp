@@ -8,11 +8,9 @@
 - [Application Architecture](appliance/architecture.md)
 - [Deployment Scenarios](appliance/deployment-arch.md)
 - [Deployment](appliance/deployment.md)
-  - [On-Prem Virtual Appliance](appliance/deployment.md#onprem)
-  - [Public Cloud Marketplace](appliance/deployment.md#marketplace)
   - ***[EX: CMP on Public Cloud Marketplaces](exercises/marketplaces.md)***
 - [Upgrades](appliance/upgrades.md)
-  - ***EX: Upgrade CMP***
+  - ***EX: Upgrade CMP*** (todo)
 - [Getting to know the Appliance](appliance/gettingtoknow.md)
   - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
@@ -22,6 +20,7 @@
 
 
 ## Python and Django
+- [Intro to Python](python_django/python_intro.md) (todo)
 - [Intro to Django](python_django/django_intro.md)
 - [Django Management Commands](python_django/commands.md)
   - ***[EX: View Django Management Commands](exercises/commands.md)***
