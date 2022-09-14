@@ -28,8 +28,8 @@
   - ***[EX: Start shell plus](exercises/shell_plus.md)***
 - [Object Relational Model](python_django/orm.md)
   - ***[EX: Query and Update CMP Objects](exercises/models.md)***
-- Database Migrations
-- Custom Fields
+- [Database Migrations](python_django/migrations.md)
+- [Custom Fields](python_django/custom_fields.md)
 
 ## Cloudbolt Object Model
 
