@@ -29,7 +29,7 @@
 - [Object Relational Model](python_django/orm.md)
   - ***[EX: Query and Update CMP Objects](exercises/models.md)*** (IN PROGRESS)
 - [Database Migrations](python_django/migrations.md) (IN PROGRESS)
-- [Custom Fields](python_django/custom_fields.md) (IN PROGRESS)
+- [Custom Fields](python_django/custom_fields.md)
   - ***[EX: Working with Custom Fields](exercises/accessing_cfs.md)***
   - ***[Ex: Creating and Attaching CFs](exercises/creating_cfs.md)***
 
