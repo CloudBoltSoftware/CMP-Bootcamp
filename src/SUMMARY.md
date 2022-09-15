@@ -10,12 +10,12 @@
 - [Deployment](appliance/deployment.md)
   - ***[EX: CMP on Public Cloud Marketplaces](exercises/marketplaces.md)***
 - [Upgrades](appliance/upgrades.md)
-  - ***EX: Upgrade CMP*** (todo)
+  - ***EX: Upgrade CMP*** (TODO)
 - [Getting to know the Appliance](appliance/gettingtoknow.md)
   - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
 - [Useful CLI Commands](appliance/cli_commands.md)
-- Key Processes (todo)
+- Key Processes (TODO)
 - [Initial Setup](appliance/initial_setup.md)
 
 
@@ -36,20 +36,20 @@
 
 ## Cloudbolt Object Model
 
-- Resource Handlers
+- [Resource Handlers](cb_model/resourcehandlers.md)
   - ***EX: Connect to AWS and Azure***
   - Images & Templates
     - ***EX: Import images***
   - Networks
     - ***EX: Import Networks***
-- OS Builds
+- [OS Builds](cb_model/osbuilds.md)
   - ***EX: Manage OS Builds***
 - Remote Script Execution
   - Credential Management
   - ***EX: Configure Remote Scripting***
 - On-Prem Remote Scripting
   - Cloud-based Remote Scripting
-- [Environments](cloudbolt_object_model/environments.md)
+- [Environments](cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
   - Tech-Specific Parameters
   - Environment Parameters
@@ -75,7 +75,7 @@
 
 ## Orchestration
 
-- Actions
+- [Actions](orchestration/actions.md)
     - CB Plugins
     - Remote Scripts
     - Webhooks
@@ -83,7 +83,7 @@
 - Resource/Server Actions
   - ***EX: Create a Server Action***
   - ***EX: Create a Resource Action***
-- Multichannel Alerts
+- [Multichannel Alerts](orchestration/mca.md)
   - ***EX: Setup an MCA target***
 - Orchestration Actions
 - Recurring Jobs

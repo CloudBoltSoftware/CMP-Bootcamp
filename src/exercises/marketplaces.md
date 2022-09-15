@@ -1,4 +1,4 @@
-# # EXERCISE: Public Cloud Marketplace Deployment
+# EXERCISE: Public Cloud Marketplace Deployment
 
 ## Use-Case
 A Customer wants to Deploy CMP from the Public Cloud Marketplace.
