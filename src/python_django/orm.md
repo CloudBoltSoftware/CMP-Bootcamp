@@ -7,7 +7,7 @@ For years, CloudBolt CMP shipped with and used MySQL 5.7, but recent licensing c
 In addition to insulating users from the underlying database -- each with its own interpretation of SQL -- Django ORM allows developers to work with Model objects using the same Python syntax and semantics as the rest of their code. The end-result being more developer productivity, more legible code, and increasingly more useful type-hinting.
 
 ## Model Documentation
-The CloudBolt CMP data model is modeled using Django ORM. This means documentation for all of these models is generated automatically and is available from https://HOSTNAME/alladmin/doc/models/. This includes all attributes relationships between these model objects.
+The CloudBolt CMP data model is modeled using Django ORM. This means documentation for all of these models is generated automatically and is available from https://HOSTNAME/alladmin/doc/models/. This includes all attributes relationships between these model objects. In the next exercise, you'll learn how to output this information in `shell_plus`.
 
 ## Querying Model Objects
 A common query is to return all rows from a table representing a specific business object. In terms of CloudBolt CMP, this might include Servers. Rather than writing SQL code and then translating tabular data to Python data types, we can do all this at once with a simple line of Python code: `servers = Server.objects.all()`. This queries the underlying database for all Server objects and returns them as an iterable Python type.

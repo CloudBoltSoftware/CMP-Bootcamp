@@ -14,8 +14,8 @@
 - [Getting to know the Appliance](appliance/gettingtoknow.md)
   - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
-- [Useful CLI Commands](appliance/cli_commands.md) (todo)
-- Key Processes
+- [Useful CLI Commands](appliance/cli_commands.md)
+- Key Processes (todo)
 - [Initial Setup](appliance/initial_setup.md)
 
 
@@ -27,9 +27,9 @@
 - [Shell Plus](python_django/shell_plus.md)
   - ***[EX: Start shell plus](exercises/shell_plus.md)***
 - [Object Relational Model](python_django/orm.md)
-  - ***[EX: Query and Update CMP Objects](exercises/models.md)*** (TODO)
-- [Database Migrations](python_django/migrations.md) (TODO)
-- [Custom Fields](python_django/custom_fields.md) (TODO)
+  - ***[EX: Query and Update CMP Objects](exercises/models.md)*** (IN PROGRESS)
+- [Database Migrations](python_django/migrations.md) (IN PROGRESS)
+- [Custom Fields](python_django/custom_fields.md) (IN PROGRESS)
   - ***[EX: Working with Custom Fields](exercises/accessing_cfs.md)***
   - ***[Ex: Creating and Attaching CFs](exercises/creating_cfs.md)***
 
