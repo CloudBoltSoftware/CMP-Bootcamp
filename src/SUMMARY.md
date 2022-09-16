@@ -45,24 +45,25 @@
     - ***EX: Import Networks***
 - [OS Builds](cb_model/osbuilds.md)
   - ***EX: Manage OS Builds***
-- Remote Script Execution
+- [Remote Script Execution](cb_model/remote_scripts.md)
   - Credential Management
-  - ***EX: Configure Remote Scripting***
-- On-Prem Remote Scripting
+  - On-Prem Remote Scripting
   - Cloud-based Remote Scripting
+  - ***EX: Configure Remote Scripting***
 - [Environments](cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
+- [Parameters](cb_model/parameters.md)
   - Tech-Specific Parameters
   - Environment Parameters
     - Global vs. Local
     - Required Parameters
     - Input Validation
     - Parameter Dependencies
-- Groups
+- [Groups](cb_model/groups.md)
   - Quotas
   - Group Parameters
-- Resources
 - Jobs & Orders
+- Resources
 
 ## AuthN, AuthZ, and SSO
 
