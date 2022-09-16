@@ -20,6 +20,9 @@ vCenter Setup
 * For the environment setup, just click "start using cloudbolt" to continue
 
 
+## Implications of Skipping Setup
 
-
+* No resource handlers will be defined
+* A root user group will not exist
+* The default admin account will still be enabled and set to admin/admin
 
