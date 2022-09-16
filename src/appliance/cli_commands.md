@@ -5,6 +5,11 @@
 https://htop.dev/
 
 A colorful and customizable interactive process viewer.
+
+Use the following command to show CloudBolt processes (Press `H` after htop starts to hide user threads):
+
+`htop -sH -p $(pgrep -d',' -f /usr/local/bin/python\|httpd\|mysql\|memcached\|guacd\|cloudbolt)`
+
 ![htop screen shot](../assets/htop.png)
 
 ### `tmux`
