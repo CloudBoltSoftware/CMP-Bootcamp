@@ -32,6 +32,7 @@
 * Apache configuration files -- might be modified in the rarest of cases
 * One case for modification is to install SSL certs by modifying `/etc/httpd/conf.d/
 
+
 ## Other CMP-Related Directories
 
 ### `/var/www/html/cloudbolt`
@@ -45,26 +46,19 @@
 * Not too interesting
 
 ## Logging
-
 * Logging in CMP is based upon the Python logging facility
 * PLF is a extensible hierarchical logging system that connects "loggers" to "handlers"
-* All CMP logs are stored under `/var/log/cloudbolt`
-* The `/var/log/cloudbolt/jobs` subdirectory is shared to all instances in an HA deployment scenario
-    * This is so every instance, whether a job engine instance or front-end server, has access to job logs.
 
-### Log Levels
+### `/var/log/cloudbolt`
+* The main CloudBolt Application log.
 
-| Level  | Description                        |
-|------- |---------------                     |
-|DEBUG   |Most verbose. CMP in debug mode.    |
-|INFO    | CMP in non-debug (production) mode |
-|WARNING |                                    |
-|ERROR   |                                    |
-|CRITICAL|Least Verbose                       |
-|        |                                    |
+### `/var/log/cloudbolt/jobs`
+* Subdirectory is shared to all instances in an HA deployment scenario
+* This is so every instance, whether a job engine instance or front-end server, has access to job logs.
+* Contains all job logs run by CloudBolt
+
 
 ### Logging Configuration
-
 * Default logging configuration is stored in `/opt/cloudbolt/settings.py`
 * Do not modify this file directly
 * Override loggers in `/var/opt/cloudbolt/proserv/customer_settings.py`
@@ -77,7 +71,22 @@
   * `my_module.sub_module_a`
   * `my_module.sub_module_b`
   * `my_module.sub_module_b.sub_sub_module`
+* Log Levels
+  | Level  | Description                        |
+  |------- |---------------                     |
+  |DEBUG   |Most verbose. CMP in debug mode.    |
+  |INFO    | CMP in non-debug (production) mode |
+  |WARNING |                                    |
+  |ERROR   |                                    |
+  |CRITICAL|Least Verbose                       |
+  |        |                                    |
+
  
+### `/var/http/ssl_error_log`
+* Apache httpd log
+* Should be the first place you check if you see a generic "Server Error"
+* Any Django startup errors/messages will appear here
+
 
 > [EXERCISE: Logging Configuration](../exercises/logging.md)
 
