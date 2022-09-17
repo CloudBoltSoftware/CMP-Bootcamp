@@ -39,16 +39,13 @@
 - [Resource Handlers](cb_model/resourcehandlers.md)
   - ***EX: Connect to AWS***
   - ***EX: Connect to Azure***
-  - [Images & Templates](cb_model/images_templates.md)
+- [Images & Templates](cb_model/images_templates.md)
     - ***EX: Import images***
-  - [Networks](cb_model/networks.md)
+- [Networks](cb_model/networks.md)
     - ***EX: Import Networks***
 - [OS Builds](cb_model/osbuilds.md)
   - ***EX: Manage OS Builds***
 - [Remote Script Execution](cb_model/remote_scripts.md)
-  - Credential Management
-  - On-Prem Remote Scripting
-  - Cloud-based Remote Scripting
   - ***EX: Configure Remote Scripting***
 - [Environments](cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
@@ -69,7 +66,7 @@
 
 - AuthN vs AuthZ
 - LDAP/Active Directory Integration
-  - Group/Role Mappings
+- Group/Role Mappings
     - ***EX: Setup AD Group Mappings***
 - SSO/SAML2
   - IdPs vs SPs
