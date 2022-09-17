@@ -40,6 +40,7 @@
   - ***EX: Connect to AWS***
   - ***EX: Connect to Azure***
 - [Images & Templates](cb_model/images_templates.md)
+    - [Common Azure Images](cb_model/azure_images.md)
     - ***EX: Import images***
 - [Networks](cb_model/networks.md)
     - ***EX: Import Networks***

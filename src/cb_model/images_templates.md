@@ -26,6 +26,7 @@
     * "Fetch and Cache Available Azure Images"
     * To force this process to run, go to `Admin > Rules ` and click the RUN button.
 * The fastest way to get images into your Azure Resource Handler is to add them manually
+    * The most common Azure images are [available here](azure_images.md).
 
 ### vCenter Templates
 * vCenter templates are created and managed directly by vCenter server
