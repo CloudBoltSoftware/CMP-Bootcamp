@@ -35,11 +35,12 @@
   * This means a Server managed by a connected vCenter need not have a connected network to execute remote scripts on behalf of CloudBolt CMP.
 * AWS supports tech-specific execution, but in order for it to work, VMs must be running the SSM (AWS Systems Manager) agent. Fortunately most AWS Marketplace images ship with this agent pre-installed.
 
-## Remote Scripting During Provisioning
+## Remote Scripting as part of Provisioning
 
 * In the course of automating Server deployments, it often becomes necessary to execute script prior to the VM being connected to the network
 * For instance, a Windows image might not ship with Remote Powershell Scripting enabled which leads to a chicken and the egg problem.
 * In order to enable remote scripting, one must be able to run a remote script
 * Fortunately most clouds and hypervisor managers support user data that can be used to execute scripts as part of the initial provisioning process.
 * Ideal for scenarios where Remote Execution is never available yet images/templates must be configured with scripts.
+* We'll revisit this topic later when we cover Orchestration Actions
 
