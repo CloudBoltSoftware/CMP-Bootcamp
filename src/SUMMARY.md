@@ -10,12 +10,12 @@
 - [Deployment](appliance/deployment.md)
   - ***[EX: CMP on Public Cloud Marketplaces](exercises/marketplaces.md)***
 - [Upgrades](appliance/upgrades.md)
-  - ***[EX: Upgrade CMP*](exercises/upgrade.md)** (TODO)
+  - ***[EX: Upgrade CMP*](exercises/upgrade.md)**
 - [Getting to know the Appliance](appliance/gettingtoknow.md)
   - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
 - [Useful CLI Commands](appliance/cli_commands.md)
-- Key Processes (TODO)
+- [Key Processes](appliance/key_processes.md)
 - [Initial Setup](appliance/initial_setup.md)
 
 
@@ -28,7 +28,7 @@
   - ***[EX: Start shell plus](exercises/shell_plus.md)***
 - [Object Relational Model](python_django/orm.md)
   - ***[EX: Query and Update CMP Objects](exercises/models.md)*** (IN PROGRESS)
-- [Database Migrations](python_django/migrations.md) (IN PROGRESS)
+- [Database Migrations](python_django/migrations.md)
 - [Custom Fields](python_django/custom_fields.md)
   - ***[EX: Working with Custom Fields](exercises/accessing_cfs.md)***
   - ***[Ex: Creating and Attaching CFs](exercises/creating_cfs.md)***
@@ -51,16 +51,11 @@
 - [Environments](cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
 - [Parameters](cb_model/parameters.md)
-  - Tech-Specific Parameters
-  - Environment Parameters
-    - Global vs. Local
-    - Required Parameters
-    - Input Validation
-    - Parameter Dependencies
+- [Pre-Configurations](cb_model/preconfigs.md)
 - [Groups](cb_model/groups.md)
   - Quotas
   - Group Parameters
-- Jobs & Orders
+- [Jobs & Orders](cb_model/jobs_orders.md)
 - Resources
 
 ## AuthN, AuthZ, and SSO
