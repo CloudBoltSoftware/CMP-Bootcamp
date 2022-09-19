@@ -17,5 +17,5 @@ Login to the CloudBolt CMP instance via SSH, download the latest upgrader, and r
 3. Expand the upgrader:
     * `tar xvf cloudbolt-upgrader-latest.tgz`
 4. Start the upgrader:
-    * `./upgrade-cloudbolt.sh`
+    * `./upgrade_cloudbolt.sh`
 
