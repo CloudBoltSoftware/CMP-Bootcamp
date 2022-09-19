@@ -70,7 +70,7 @@
 
 ## Orchestration
 
-- [Actions](orchestration/actions.md)
+- Actions
     - CB Plugins
     - Remote Scripts
     - Webhooks
@@ -78,7 +78,7 @@
 - Resource/Server Actions
   - ***EX: Create a Server Action***
   - ***EX: Create a Resource Action***
-- [Multichannel Alerts](orchestration/mca.md)
+- Multichannel Alerts
   - ***EX: Setup an MCA target***
 - Orchestration Actions
 - Recurring Jobs
