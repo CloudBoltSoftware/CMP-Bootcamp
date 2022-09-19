@@ -1,5 +1,4 @@
 # CloudBolt CMP Bootcamp
-
 * [Introduction](introduction.md)
 * [Prerequisites](prerequisites.md)
 * [Getting Started](getting_started.md)
@@ -35,9 +34,8 @@
 
 
 ## Cloudbolt Object Model
-
 - [Resource Handlers](cb_model/resourcehandlers.md)
-  - ***EX: Connect to AWS***
+  - ***[EX: Connect to AWS]***
   - ***EX: Connect to Azure***
 - [Images & Templates](cb_model/images_templates.md)
     - [Common Azure Images](cb_model/azure_images.md)
@@ -51,15 +49,16 @@
 - [Environments](cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
 - [Parameters](cb_model/parameters.md)
+  - ***EX: Parameter Behavior Review***
 - [Pre-Configurations](cb_model/preconfigs.md)
+  - ***EX: Create Server Size Pre-configuration***
 - [Groups](cb_model/groups.md)
-  - Quotas
-  - Group Parameters
+  - ***EX: Create Groups***
+  - ***EX: Setup Group Approvals***
 - [Jobs & Orders](cb_model/jobs_orders.md)
-- Resources
+  - ***EX: Explore Object Model for an Order***
 
 ## AuthN, AuthZ, and SSO
-
 - AuthN vs AuthZ
 - LDAP/Active Directory Integration
 - Group/Role Mappings
@@ -69,7 +68,6 @@
   - ***EX: SSO Integration***
 
 ## Orchestration
-
 - Actions
     - CB Plugins
     - Remote Scripts
@@ -81,6 +79,7 @@
 - Multichannel Alerts
   - ***EX: Setup an MCA target***
 - Orchestration Actions
+- Back to Remote Scripting
 - Recurring Jobs
 - Rules
 - Remote Script Execution
