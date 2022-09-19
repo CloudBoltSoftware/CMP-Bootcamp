@@ -20,4 +20,13 @@
 * If a parameter is required, and conflicting values are set for the selected Environment and Group, the user must choose from the union of these options.
 
 ## Parameter Dependencies
+* Parameters can be linked to be dependent on another parameter or OS Family
+* Two types of dependencies: 
+    * Show/Hide
+    * Regenerate Options
+* Show/Hide dependencies
+    * Use one Parameter to determine when another Parameter should be displayed
+    * Common use-case is to have a Boolean Parameter, that when checked displays an additional parameter
+* Regenerate Options
+    * Given a control value, force the regeneration of options for a dependent parameter
 
