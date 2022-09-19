@@ -20,7 +20,7 @@ Create a Custom Field that can be attached to users and queried in future script
 3. Attach this Custom Field to all existing users. User objects are not CloudBolt models, therefore we will attach this Custom Field to the corresponding UserProfile object accessed by the userprofile attribute:
    *
    ```
-   for each user in User.objects.all():
+   for user in User.objects.all():
      profile = user.userprofile
      profile.set_value_for_custom_field("acme_location", "us-east-1")
    ```
