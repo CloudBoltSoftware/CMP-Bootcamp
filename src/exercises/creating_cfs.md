@@ -10,7 +10,7 @@ Create a Custom Field that can be attached to users and queried in future script
 2. Create a new Custom Field called `acme_location`:
    * 
    ```
-   cf = CustomField.object.create(
+   cf = CustomField.objects.create(
       name="acme_location",
       type="STR",
       label="Location",
