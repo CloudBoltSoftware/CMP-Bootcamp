@@ -35,7 +35,7 @@
 
 ## Cloudbolt Object Model
 - [Resource Handlers](cb_model/resourcehandlers.md)
-  - ***[EX: Connect to AWS]***
+  - ***EX: Connect to AWS***
   - ***EX: Connect to Azure***
 - [Images & Templates](cb_model/images_templates.md)
     - [Common Azure Images](cb_model/azure_images.md)
