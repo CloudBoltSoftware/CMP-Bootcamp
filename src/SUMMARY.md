@@ -58,15 +58,6 @@
 - [Jobs & Orders](cb_model/jobs_orders.md)
   - ***EX: Explore Object Model for an Order***
 
-## AuthN, AuthZ, and SSO
-- AuthN vs AuthZ
-- LDAP/Active Directory Integration
-- Group/Role Mappings
-    - ***EX: Setup AD Group Mappings***
-- SSO/SAML2
-  - IdPs vs SPs
-  - ***EX: SSO Integration***
-
 ## Orchestration
 - Actions
     - CB Plugins
@@ -99,6 +90,15 @@
   - Action Inputs
 - Terraform Blueprint Items
 - Kubernetes
+
+## AuthN, AuthZ, and SSO
+- AuthN vs AuthZ
+- LDAP/Active Directory Integration
+- Group/Role Mappings
+    - ***EX: Setup AD Group Mappings***
+- SSO/SAML2
+  - IdPs vs SPs
+  - ***EX: SSO Integration***
 
 ## Extending CloudBolt
 - Content Library
