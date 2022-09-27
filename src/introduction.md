@@ -10,13 +10,13 @@ Old and thorny IT issues such as VM sprawl, patch/configuration management, secu
 
 Despite all the benefits delivered by Public Cloud, an age-old problem continues to confound enterprise IT: 
 
-    How do we empower developers and technical teams to move faster without burdening them with crushing overhead in the form of expertise in: networking, public cloud knowledge, security, operations, cost accounting, and DevOps?
+> How do we empower developers and technical teams to move faster without burdening them with crushing overhead in the form of expertise in: networking, public cloud knowledge, security, operations, cost accounting, and DevOps?
 
 ## The CloudBolt Platform
 
 Initially built on the foundation of self-service IT and visibility provided by CloudBolt CMP, the CloudBolt product portfolio has since expanded to address the challenges mentioned above by incorporating the cost management and compliance reporting capabilities delivered by CSMP (Cost & Security Management Platform). The combination of these products and the unparalleled time-to-value delivered by the CloudBolt Platform help enterprises meet the demands and challenges presented by multi- and hybrid-cloud environments. 
 
-    The CloudBolt Platform helps address complexity through active Self-Service which leverages implicit governance to ensure workloads can be deployed quickly and easily by citizen developers while providing actionable cost management and compliance reporting across on-prem and public cloud environments.
+> The CloudBolt Platform helps address complexity through active Self-Service which leverages implicit governance to ensure workloads can be deployed quickly and easily by citizen developers while providing actionable cost management and compliance reporting across on-prem and public cloud environments.
 
 This course will be focused on CloudBolt CMP, however integration with the Cost and Security Management Platform (CSMP) will be covered in detail.
 
@@ -26,7 +26,7 @@ CloudBolt CMP was initially developed in 2012 and has since evolved from being a
 
 New tools and techniques are deployed at a frenetic pace in today's IT enterprise contributing to complexity -- the enemy of agility and  digital transformation. A major strength of CloudBolt CMP is its ability to grow and evolve with new trends in IT automation such as infrastructure-as-code, containers; as well as new operational models such as DevOps and CI/CD. 
 
-    CloudBolt CMP wraps the increasingly complex web of automation tools and processes under a single umbrella of orchestration to hide this complexity and ultimately provide a sustainable mechanism for tool consumption and rationalization.
+> CloudBolt CMP wraps the increasingly complex web of automation tools and processes under a single umbrella of orchestration to hide this complexity and ultimately provide a sustainable mechanism for tool consumption and rationalization.
 
 ## CloudBolt CMP Bootcamp
 
