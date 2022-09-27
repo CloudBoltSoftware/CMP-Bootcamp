@@ -8,7 +8,7 @@
 ## Nightly Upgrader Builds
 * Available at:
   * https://downloads.cloudbolt.io/cloudbolt-upgrader-nightly.tgz
-* Updated from the "develop" branch on a nightly basis
+* Updated from the `develop` branch on a nightly basis
 * This is the latest code from engineering
 * Not fully QA'ed and may contain features not slated for next release
 
@@ -19,7 +19,7 @@
 
 
 ## Upgrading via the UI
-* UI-based upgrade available in product at: `Admin > Version & Upgrade Info`
+* UI-based upgrade available in product at: `Admin` > `Version & Upgrade Info`
 * Only to be used in a virtual appliance (everything on one server) deployment scenario
   * Do not use this method if CMP is running with separate DB server and/or components 
 
