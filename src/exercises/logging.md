@@ -4,7 +4,10 @@
 The AWS boto3 SDK and urllib moduels are generating a lot of noise in a customer's application.log. They'd like to tune down logging for these module so that only errors are displayed. 
 
 ## Solution
-Edit `/var/opt/cloudbolt/proserv/customer_settings.py` to override logging for the boto3 module so that instead of INFO or DEBUG logging, it will only log ERROR-level messages.
+Edit `customer_settings.py` to override logging for the boto3 module so that instead of INFO or DEBUG logging, it will only log ERROR-level messages.
+
+1. Edit the file: `vi /var/opt/cloudbolt/proserv/customer_settings.py`
+2. Add the following block:
 ```
 from settings import LOGGING, default_handlers
 
@@ -21,3 +24,5 @@ LOGGING["loggers"].update({
     },
 })
 ```
+3. Hit [ESC] key and type in `:wq!`
+4. `systemctl restart httpd`
