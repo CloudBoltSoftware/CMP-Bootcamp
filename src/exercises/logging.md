@@ -24,5 +24,5 @@ LOGGING["loggers"].update({
     },
 })
 ```
-3. Hit [ESC] key and type in `:wq!`
-4. `systemctl restart httpd`
+3. <kbd>ESC</kbd> and type in `:wq!`
+5. `systemctl restart httpd`
