@@ -28,6 +28,11 @@
 ### `/var/log/cloudbolt/jobs`
 * Shared via shared filesystem in HA deployment scenarios
 
+### `/var/http/ssl_error_log`
+* Apache httpd log
+* Should be the first place you check if you see a generic "Server Error"
+* Any Django startup errors/messages will appear here
+
 ### `/etc/httpd`
 * Apache configuration files -- might be modified in the rarest of cases
 * One case for modification is to install SSL certs by modifying `/etc/httpd/conf.d/
@@ -82,11 +87,6 @@
   |        |                                    |
 
  
-### `/var/http/ssl_error_log`
-* Apache httpd log
-* Should be the first place you check if you see a generic "Server Error"
-* Any Django startup errors/messages will appear here
-
 
 > [EXERCISE: Logging Configuration](../exercises/logging.md)
 
