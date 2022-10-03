@@ -23,6 +23,9 @@ Create a Custom Field that can be attached to users and queried in future script
    for user in User.objects.all():
      profile = user.userprofile
      profile.set_value_for_custom_field("acme_location", "us-east-1")
+   # OR
+   for user in User.objects.all():
+     user.profile.acme_location = "us-east-1"
    ```
 4. Note the new property in CloudBolt CMP, by going to `Admin > Users` and clicking the "Parameters" tab.
    ![Screen shot of User oarameters](../assets/user_params.png)
