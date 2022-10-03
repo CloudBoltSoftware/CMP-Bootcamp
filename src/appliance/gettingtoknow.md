@@ -92,9 +92,13 @@
 
 
 ## Crontab
+* `crontab -l`
 
 ## Supervisor
 
 ## Apache HTTPd
+* `/var/log/httpd/ssl_error_log`
+* `/etc/httpd`
+
 
 
