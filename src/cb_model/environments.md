@@ -1,7 +1,7 @@
 # Environments
 
 * Environments (`infrastructure.models.Environment`) represent a slice of a Public Cloud or data center that is provided and managed by CloudBolt Admins
-  *  Can be thought of a logical cloud carved out from an underlying cloud or hypervisor environments
+  * Can be thought of a logical cloud carved out from an underlying cloud or hypervisor environments
 * Environments and their names are exposed to end-users
 * Provide a target for new Resources
 * Encapsulate details of underlying cloud so users don't have to know them

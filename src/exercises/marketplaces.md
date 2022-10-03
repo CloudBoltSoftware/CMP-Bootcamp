@@ -20,7 +20,7 @@ A Customer wants to Deploy CMP from the Public Cloud Marketplace.
 * Search for "cloudbolt"
 * See two listings
     * CloudBolt Cloud Management Platform
-    * Cloudbolt - Cost Management
+    * CloudBolt - Cost Management
 * Choose "CloudBolt Cloud Management Platform"
 * Choose region and launch instance with selected Key Pair
 * Login to CloudBolt Web UI with admin/admin

@@ -22,9 +22,9 @@ This course will be focused on CloudBolt CMP, however integration with the Cost 
 
 ## CloudBolt CMP
 
-CloudBolt CMP was initially developed in 2012 and has since evolved from being a product focused on exposing data center technologies to a full-fledged Self-Service IT platform that works across all major clouds -- public and private. Its focus providing an answer to the question posed above by enterprise IT has been critical to customer acquisition and success. With each release, this ability to empower technical teams to move faster grows stronger. 
+CloudBolt CMP was initially developed in 2011 and has since evolved from being a product focused on exposing data center technologies to a full-fledged Self-Service IT platform that works across all major clouds -- public and private. Its focus on providing an answer to the question posed above by enterprise IT has been critical to customer acquisition and success. With each release, this ability to empower technical teams to move faster grows stronger. 
 
-New tools and techniques are deployed at a frenetic pace in today's IT enterprise contributing to complexity -- the enemy of agility and  digital transformation. A major strength of CloudBolt CMP is its ability to grow and evolve with new trends in IT automation such as infrastructure-as-code, containers; as well as new operational models such as DevOps and CI/CD. 
+New tools and techniques are deployed at a frenetic pace in today's IT enterprise contributing to complexity -- the enemy of agility and digital transformation. A major strength of CloudBolt CMP is its ability to grow and evolve with new trends in IT automation such as infrastructure-as-code, containers; as well as new operational models such as DevOps and CI/CD. 
 
 > CloudBolt CMP wraps the increasingly complex web of automation tools and processes under a single umbrella of orchestration to hide this complexity and ultimately provide a sustainable mechanism for tool consumption and rationalization.
 

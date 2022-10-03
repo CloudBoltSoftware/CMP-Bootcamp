@@ -33,7 +33,7 @@
   - ***[Ex: Creating and Attaching CFs](exercises/creating_cfs.md)***
 
 
-## Cloudbolt Object Model
+## CloudBolt Object Model
 - [Resource Handlers](cb_model/resourcehandlers.md)
   - ***EX: Connect to AWS***
   - ***EX: Connect to Azure***
