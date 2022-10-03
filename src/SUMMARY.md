@@ -19,7 +19,6 @@
 
 
 ## Python and Django
-- [Intro to Python](python_django/python_intro.md) (todo)
 - [Intro to Django](python_django/django_intro.md)
 - [Django Management Commands](python_django/commands.md)
   - ***[EX: View Django Management Commands](exercises/commands.md)***
