@@ -131,3 +131,6 @@ dmypy.json
 
 secrets
 
+# PyCharm
+.idea
+
