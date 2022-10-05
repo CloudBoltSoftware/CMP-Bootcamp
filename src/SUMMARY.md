@@ -39,12 +39,10 @@
 - [Images & Templates](cb_model/images_templates.md)
     - [Common Azure Images](cb_model/azure_images.md)
     - ***EX: Import images***
-- [Networks](cb_model/networks.md)
-    - ***EX: Import Networks***
 - [OS Builds](cb_model/osbuilds.md)
   - ***EX: Manage OS Builds***
-- [Remote Script Execution](cb_model/remote_scripts.md)
-  - ***EX: Configure Remote Scripting***
+- [Networks](cb_model/networks.md)
+    - ***EX: Import Networks***
 - [Environments](cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
 - [Parameters](cb_model/parameters.md)
@@ -54,6 +52,8 @@
 - [Groups](cb_model/groups.md)
   - ***EX: Create Groups***
   - ***EX: Setup Group Approvals***
+- [Remote Script Execution](cb_model/remote_scripts.md)
+  - ***EX: Configure Remote Scripting***
 - [Jobs & Orders](cb_model/jobs_orders.md)
   - ***EX: Explore Object Model for an Order***
 
@@ -63,16 +63,19 @@
     - Remote Scripts
     - Webhooks
     - Email Actions
+    - Other (Terraform, File Copy)
 - Resource/Server Actions
   - ***EX: Create a Server Action***
-  - ***EX: Create a Resource Action***
 - Multichannel Alerts
   - ***EX: Setup an MCA target***
 - Orchestration Actions
+  - ***EX: Create a Monitoring Action***
+  - ***EX: Handle Expired Servers***
 - Back to Remote Scripting
+  - ***EX: User Data***
 - Recurring Jobs
+  - ***EX: Create a Recurring Job***
 - Rules
-- Remote Script Execution
 
 ## XaaS (Anything-as-a-Service)
 - Catalog
