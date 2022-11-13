@@ -1,1 +1,3 @@
-Info on how to compile book will go here.
+# CloudBolt CMP Bootcamp
+
+[Table of Contents](src/SUMMARY.md)
