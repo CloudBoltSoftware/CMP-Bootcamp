@@ -65,9 +65,9 @@
     - Email Actions
     - Other (Terraform, File Copy)
 - Resource/Server Actions
-  - ***EX: Create a Server Action***
+  - ***[EX: Create a Server Action](exercises/server_action.md)***
 - Multichannel Alerts
-  - ***EX: Setup an MCA target***
+  - ***[EX: Setup an MCA target](exercises/mca.md)***
 - Orchestration Actions
   - ***EX: Create a Monitoring Action***
   - ***EX: Handle Expired Servers***
