@@ -11,6 +11,7 @@
   * This is important when upgrading HA environments.
 
 ## Some Useful Tips on Migrations
+* ALWAYS backup/snapshot the database BEFORE running migrations/upgrades!
 * Schema changes and data migrations should never co-exist in a single migration
 * Migrations must be self-contained -- never import from the application
   * Rely on "frozen-in-time" methods in the migration itself.
