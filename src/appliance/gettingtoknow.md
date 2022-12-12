@@ -28,7 +28,7 @@
 ### `/var/log/cloudbolt/jobs`
 * Shared via shared filesystem in HA deployment scenarios
 
-### `/var/http/ssl_error_log`
+### `/var/log/http/ssl_error_log`
 * Apache httpd log
 * Should be the first place you check if you see a generic "Server Error"
 * Any Django startup errors/messages will appear here
