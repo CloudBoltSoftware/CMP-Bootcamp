@@ -3,7 +3,7 @@
 * [Prerequisites](prerequisites.md)
 * [Getting Started](getting_started.md)
 
-## The CloudBolt Appliance
+## 1. The CloudBolt Appliance
 - [Application Architecture](appliance/architecture.md)
 - [Deployment Scenarios](appliance/deployment-arch.md)
 - [Deployment](appliance/deployment.md)
@@ -18,7 +18,7 @@
 - [Initial Setup](appliance/initial_setup.md)
 
 
-## Python and Django
+## 2. Python and Django
 - [Intro to Django](python_django/django_intro.md)
 - [Django Management Commands](python_django/commands.md)
   - ***[EX: View Django Management Commands](exercises/commands.md)***
@@ -32,7 +32,7 @@
   - ***[Ex: Creating and Attaching CFs](exercises/creating_cfs.md)***
 
 
-## CloudBolt Object Model
+## 3. CloudBolt Object Model
 - [Resource Handlers](cb_model/resourcehandlers.md)
   - ***EX: Connect to AWS***
   - ***EX: Connect to Azure***
@@ -57,7 +57,7 @@
 - [Jobs & Orders](cb_model/jobs_orders.md)
   - ***EX: Explore Object Model for an Order***
 
-## Orchestration
+## 4. Orchestration
 - Actions
     - CB Plugins
     - Remote Scripts
@@ -77,7 +77,7 @@
   - ***EX: Create a Recurring Job***
 - Rules
 
-## XaaS (Anything-as-a-Service)
+## 5. XaaS (Anything-as-a-Service)
 - Catalog
 - XaaS Resource Types
   - Services
@@ -91,9 +91,8 @@
 - Action Blueprint Items
   - Action Inputs
 - Terraform Blueprint Items
-- Kubernetes
 
-## Extending CloudBolt
+## 6. Extending CloudBolt
 - Content Library
 - XUI Plugins
   - Custom Reports
