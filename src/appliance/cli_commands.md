@@ -52,6 +52,12 @@ A non-interactive network downloader similar to, but arguably simpler than, cURL
 ```
 wget https://downloads.cloudbolt.io/cloudbolt-upgrader-latest.tgz
 ```
+### `openssl`
+Great for debugging connections to SSL protected resources/URLs.
+
+```
+openssl s_client -connect <IP>:<PORT>
+```
 
 ## Available via `yum install`
 
