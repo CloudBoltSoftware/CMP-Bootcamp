@@ -45,13 +45,13 @@
     - ***EX: Import Networks***
 - [Environments](cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
+- [Groups](cb_model/groups.md)
+  - ***EX: Create Groups***
+  - ***EX: Setup Group Approvals***
 - [Parameters](cb_model/parameters.md)
   - ***EX: Parameter Behavior Review***
 - [Pre-Configurations](cb_model/preconfigs.md)
   - ***EX: Create Server Size Pre-configuration***
-- [Groups](cb_model/groups.md)
-  - ***EX: Create Groups***
-  - ***EX: Setup Group Approvals***
 - [Remote Script Execution](cb_model/remote_scripts.md)
   - ***EX: Configure Remote Scripting***
 - [Jobs & Orders](cb_model/jobs_orders.md)
