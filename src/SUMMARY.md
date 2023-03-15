@@ -52,10 +52,10 @@
   - ***EX: Parameter Behavior Review***
 - [Pre-Configurations](cb_model/preconfigs.md)
   - ***EX: Create Server Size Pre-configuration***
-- [Remote Script Execution](cb_model/remote_scripts.md)
-  - ***EX: Configure Remote Scripting***
 - [Jobs & Orders](cb_model/jobs_orders.md)
   - ***EX: Explore Object Model for an Order***
+- [Remote Script Execution](cb_model/remote_scripts.md)
+  - ***EX: Configure Remote Scripting***
 
 ## 4. Orchestration
 - Actions
