@@ -65,14 +65,16 @@
     - Email Actions
     - Other (Terraform, File Copy)
 - Orchestration Actions
+  - ***EX: User Data for Agent Install*** 
   - ***EX: Create a Monitoring Action***
   - ***EX: Handle Expired Servers***
+- Parameter Orchestration
+  - ***EX: Dependent Fields***
+  - ***EX: Generated Options*** 
 - Resource/Server Actions
   - ***[EX: Create a Server Action](exercises/server_action.md)***
 - Multichannel Alerts
   - ***[EX: Setup an MCA target](exercises/mca.md)***
-- Back to Remote Scripting
-  - ***EX: User Data***
 - Recurring Jobs
   - ***EX: Create a Recurring Job***
 - Rules
