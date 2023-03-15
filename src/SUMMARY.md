@@ -64,13 +64,13 @@
     - Webhooks
     - Email Actions
     - Other (Terraform, File Copy)
+- Orchestration Actions
+  - ***EX: Create a Monitoring Action***
+  - ***EX: Handle Expired Servers***
 - Resource/Server Actions
   - ***[EX: Create a Server Action](exercises/server_action.md)***
 - Multichannel Alerts
   - ***[EX: Setup an MCA target](exercises/mca.md)***
-- Orchestration Actions
-  - ***EX: Create a Monitoring Action***
-  - ***EX: Handle Expired Servers***
 - Back to Remote Scripting
   - ***EX: User Data***
 - Recurring Jobs
