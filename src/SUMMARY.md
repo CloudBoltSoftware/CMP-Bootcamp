@@ -25,7 +25,7 @@
 - [Shell Plus](python_django/shell_plus.md)
   - ***[EX: Start shell plus](exercises/shell_plus.md)***
 - [Object Relational Model](python_django/orm.md)
-  - ***[EX: Query and Update CMP Objects](exercises/models.md)*** (IN PROGRESS)
+  - ***[EX: Query and Update CMP Objects](exercises/models.md)***
 - [Database Migrations](python_django/migrations.md)
 - [Custom Fields](python_django/custom_fields.md)
   - ***[EX: Working with Custom Fields](exercises/accessing_cfs.md)***
