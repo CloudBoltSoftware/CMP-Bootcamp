@@ -1,60 +1,60 @@
 # CloudBolt CMP Bootcamp
-* [Introduction](introduction.md)
-* [Prerequisites](prerequisites.md)
-* [Getting Started](getting_started.md)
+* [Introduction](00_introduction/introduction.md)
+* [Prerequisites](00_introduction/prerequisites.md)
+* [Getting Started](00_introduction/getting_started.md)
 
 ## 1. The CloudBolt Appliance
-- [Application Architecture](appliance/architecture.md)
-- [Deployment Scenarios](appliance/deployment-arch.md)
-- [Deployment](appliance/deployment.md)
+- [Application Architecture](01_appliance/architecture.md)
+- [Deployment Scenarios](01_appliance/deployment-arch.md)
+- [Deployment](applia01_appliancence/deployment.md)
   - ***[EX: CMP on Public Cloud Marketplaces](exercises/marketplaces.md)***
-- [Upgrades](appliance/upgrades.md)
+- [Upgrades](01_appliance/upgrades.md)
   - ***[EX: Upgrade CMP*](exercises/upgrade.md)***
-- [Getting to know the Appliance](appliance/gettingtoknow.md)
+- [Getting to know the Appliance](01_appliance/gettingtoknow.md)
   - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
-- [Useful CLI Commands](appliance/cli_commands.md)
-- [Key Processes](appliance/key_processes.md)
-- [Initial Setup](appliance/initial_setup.md)
+- [Useful CLI Commands](01_appliance/cli_commands.md)
+- [Key Processes](01_appliance/key_processes.md)
+- [Initial Setup](01_appliance/initial_setup.md)
 
 
 ## 2. Python and Django
-- [Intro to Django](python_django/django_intro.md)
-- [Django Management Commands](python_django/commands.md)
+- [Intro to Django](02_python_django/django_intro.md)
+- [Django Management Commands](02_python_django/commands.md)
   - ***[EX: View Django Management Commands](exercises/commands.md)***
-- [Shell Plus](python_django/shell_plus.md)
+- [Shell Plus](02_python_django/shell_plus.md)
   - ***[EX: Start shell plus](exercises/shell_plus.md)***
-- [Object Relational Model](python_django/orm.md)
+- [Object Relational Model](02_python_django/orm.md)
   - ***[EX: Query and Update CMP Objects](exercises/models.md)***
-- [Database Migrations](python_django/migrations.md)
-- [Custom Fields](python_django/custom_fields.md)
+- [Database Migrations](02_python_django/migrations.md)
+- [Custom Fields](02_python_django/custom_fields.md)
   - ***[EX: Working with Custom Fields](exercises/accessing_cfs.md)***
   - ***[Ex: Creating and Attaching CFs](exercises/creating_cfs.md)***
 
 
 ## 3. CloudBolt Object Model
-- [Resource Handlers](cb_model/resourcehandlers.md)
+- [Resource Handlers](03_cb_model/resourcehandlers.md)
   - ***EX: Connect to AWS***
   - ***EX: Connect to Azure***
-- [Images & Templates](cb_model/images_templates.md)
-    - [Common Azure Images](cb_model/azure_images.md)
+- [Images & Templates](03_cb_model/images_templates.md)
+    - [Common Azure Images](03_cb_model/azure_images.md)
     - ***EX: Import images***
-- [OS Builds](cb_model/osbuilds.md)
+- [OS Builds](03_cb_model/osbuilds.md)
   - ***EX: Manage OS Builds***
-- [Networks](cb_model/networks.md)
+- [Networks](03_cb_model/networks.md)
     - ***EX: Import Networks***
-- [Environments](cb_model/environments.md)
+- [Environments](03_cb_model/environments.md)
   - ***EX: Manage auto-created Environments***
-- [Groups](cb_model/groups.md)
+- [Groups](03_cb_model/groups.md)
   - ***EX: Create Groups***
   - ***EX: Setup Group Approvals***
-- [Parameters](cb_model/parameters.md)
+- [Parameters](03_cb_model/parameters.md)
   - ***EX: Parameter Behavior Review***
-- [Pre-Configurations](cb_model/preconfigs.md)
+- [Pre-Configurations](03_cb_model/preconfigs.md)
   - ***EX: Create Server Size Pre-configuration***
-- [Jobs & Orders](cb_model/jobs_orders.md)
+- [Jobs & Orders](03_cb_model/jobs_orders.md)
   - ***EX: Explore Object Model for an Order***
-- [Remote Script Execution](cb_model/remote_scripts.md)
+- [Remote Script Execution](03_cb_model/remote_scripts.md)
   - ***EX: Configure Remote Scripting***
 
 ## 4. Orchestration
