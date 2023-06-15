@@ -6,7 +6,7 @@
 ## 1. The CloudBolt Appliance
 - [Application Architecture](01_appliance/architecture.md)
 - [Deployment Scenarios](01_appliance/deployment-arch.md)
-- [Deployment](applia01_appliancence/deployment.md)
+- [Deployment](01_appliance/deployment.md)
   - ***[EX: CMP on Public Cloud Marketplaces](exercises/marketplaces.md)***
 - [Upgrades](01_appliance/upgrades.md)
   - ***[EX: Upgrade CMP*](exercises/upgrade.md)***
