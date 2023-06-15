@@ -7,6 +7,7 @@ if __name__ == '__main__':
     django.setup()
 
 
+# import models here!
 from infrastructure.models import Server
 from common.methods import set_progress
 
