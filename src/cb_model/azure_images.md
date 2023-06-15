@@ -1,4 +1,12 @@
-# Commonly Used Azure Images
+
+# Whitelisted Images
+
+## Import Whitelisted Images
+To enable whitelisted Azure images, go to the "THEN" clause for the Rule titled "Fetch and Cache Available Azure Images", and click the the pencil icon to edit and set "Default value for Use whitelist" to TRUE.
+
+Click the "Run" icon to start the image import process. It will complete in a matter of seconds, and the whitelist zure images will appear in the image import UI for the Azure Resource Handler
+
+## Available Whitelisted Images
 
 This list was generated from running the following in `shell_plus`:
 ```python
@@ -53,3 +61,5 @@ for i in azure_image_whitelist:
 | MicrosoftWindowsServer | WindowsServer | 2016-Datacenter | latest |
 | MicrosoftWindowsServer | WindowsServer | 2019-Datacenter | latest |
 | MicrosoftWindowsServer | WindowsServer | 2022-Datacenter | latest |
+
+
