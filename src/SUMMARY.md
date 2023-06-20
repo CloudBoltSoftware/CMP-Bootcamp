@@ -78,6 +78,7 @@
 - Recurring Jobs
   - ***EX: Create a Recurring Job***
 - Rules
+- ConnectionInfo Objects
 
 ## 5. XaaS (Anything-as-a-Service)
 - Catalog
