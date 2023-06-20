@@ -17,7 +17,7 @@ VS Code will be the editor of choice for this class -- students are expected to 
 ## General Networking Concepts
 Working across public and private cloud environments requires a basic level of understanding of TCP/IP networking concepts like IP addresses, TCP/UDP ports, general connectivity, and DNS.
 
-## HTTP-based APIs
+## Web-based API Experience
 HTTP-based APIs, whether in the form of REST, XMLRPC, or other calling conventions, are the glue that binds services together when it comes to orchestration and automation. A basic understanding of how to create these calls in any tool including, curl, Postman, HTTPie, or from scripting/programming languages will be helpful.
 
 ## Web- and host-based Encryption Protocols
