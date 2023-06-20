@@ -1,10 +1,18 @@
 # Prerequisites
 
 ## Linux Terminal Experience
-Bootcamp participants are expected to know how to open a terminal and login to a remote linux host via SSH. Basic Linux skills such as using vi, file management, and bash will be assumed by the instructors.
+Bootcamp participants are expected to know how to open a terminal, configure, and login to a remote linux host via SSH. Basic Linux skills such as using vi, file management, and bash will be assumed by the instructors. Students should be able to login to a Linux system and edit a text file.
 
 ## Familiarity with Scripting
 This includes an understanding of basic concepts such as variables, functions, as well as primitive data types like strings, numbers, arrays, and dictionaries. Basic Python knowledge will be useful, but not required.
+
+## Visual Studio Code
+VS Code will be the editor of choice for this class -- students are expected to come to class with the latest version of Visual Studio Code loaded on their laptop with the following plugins installed: 
+* Python (Microsoft)
+* Pylance (Microsoft)
+* Remote-SSH (Microsoft)
+* Remote Explorer (Microsoft)
+* Remote - SSH: Editing Configuration Files (Microsoft) 
 
 ## General Networking Concepts
 Working across public and private cloud environments requires a basic level of understanding of TCP/IP networking concepts like IP addresses, TCP/UDP ports, general connectivity, and DNS.
