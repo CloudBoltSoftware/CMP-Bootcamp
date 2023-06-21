@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <table class="table table-striped">
+        <thead>
+
+            <th>ID</th>
+            <th>Hostname</th>
+            <th>IP</th>
+            <th>Billing Code</th>
+            <th>Group</th>
+        </thead>
+        <tbody>
+    {% for server in servers %}
+    <tr>
+        <td>{{server.id }}</td>
+        <td><a href="/servers/{{ server.id }}">{{ server.hostname }}</a></td>
+        <td>{{ server.ip }}</td>        
+        <td>{{ server.acme_billing_code }}</td>
+        <td>{{ server.group.name }}</td>
+    </tr>
+    {% endfor %}
+        </tbody>
+
+
+    </table>
+{% endblock content %}

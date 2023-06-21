@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="chart"></div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	var options = {
+		title: {
+			text: "# Servers by Resource Handler"
+		},
+		chart: {
+			type: "pie",
+			renderTo: "chart"
+		},
+		series: [{}],
+		plotOptions: {
+			pie: {
+				point: {
+					events: {
+						click: function() {
+							window.location = '/admin/resourcehandlers/' + this.id;
+						}
+					}
+				}
+			}
+		}
+	};
+	var url = "/xui/acme_graphs/api/data";
+	$.getJSON(url, function(data) {
+		options.series[0].data = data;
+		options.series[0].name = "# Servers";
+		new Highcharts.Chart(options); 
+	});
+});
+</script>
+
+
+{% endblock content %}
+
