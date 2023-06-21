@@ -10,3 +10,4 @@ def run(job, server, **kwargs):
     server.aws_user_data = SCRIPT
     server.save()
     return "SUCCESS", "", ""
+

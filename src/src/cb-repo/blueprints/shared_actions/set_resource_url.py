@@ -4,10 +4,11 @@ from infrastructure.models import CustomField
 
 RESOURCE_URL = "{{ RESOURCE_URL }}"
 
+
 def run(job, resource, **kwargs):
     cf, _ = CustomField.objects.get_or_create(
         name="acme_resource_url",
-        label="URL",
+        label="Resource URL",
         type="URL",
         show_as_attribute=True,
     )
@@ -16,5 +17,3 @@ def run(job, resource, **kwargs):
     set_progress(f"Resource available at: {RESOURCE_URL}")
     
     return "SUCCESS", RESOURCE_URL, ""
-
-

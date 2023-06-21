@@ -7,3 +7,4 @@ def run(job, servers, **kwargs):
         server.power_off()
         
     return "SUCCESS", "", ""
+
