@@ -67,8 +67,8 @@
 - Orchestration Actions
   - ***EX: User Data for Agent Install*** 
   - ***EX: Create a Monitoring Action***
-  - ***EX: Handle Expired Servers***
   - ***EX: Parameter Change***
+  - ***EX: Handle Expired Servers***
 - Parameter Orchestration
   - ***EX: Dependent Fields***
   - ***EX: Generated Options***
