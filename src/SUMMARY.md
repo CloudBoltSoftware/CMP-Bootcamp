@@ -67,9 +67,10 @@
 - Orchestration Actions
   - ***EX: User Data for Agent Install*** 
   - ***EX: Create a Monitoring Action***
-  - ***EX: Parameter Change***
+  - ***EX: ConnectionInfo Objects***
   - ***EX: Handle Expired Servers***
 - Parameter Orchestration
+  - ***EX: Parameter Change***
   - ***EX: Dependent Fields***
   - ***EX: Generated Options***
   - ***EX: Tagging***
@@ -79,7 +80,6 @@
   - ***[EX: Setup an MCA target](exercises/mca.md)***
 - Recurring Jobs
   - ***EX: Create a Recurring Job***
-- ConnectionInfo Objects
 
 ## 5. XaaS (Anything-as-a-Service)
 - Catalog
