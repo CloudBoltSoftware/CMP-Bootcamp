@@ -68,16 +68,17 @@
   - ***EX: User Data for Agent Install*** 
   - ***EX: Create a Monitoring Action***
   - ***EX: Handle Expired Servers***
+  - ***EX: Parameter Change***
 - Parameter Orchestration
   - ***EX: Dependent Fields***
-  - ***EX: Generated Options*** 
+  - ***EX: Generated Options***
+  - ***EX: Tagging***
 - Resource/Server Actions
   - ***[EX: Create a Server Action](exercises/server_action.md)***
 - Multichannel Alerts
   - ***[EX: Setup an MCA target](exercises/mca.md)***
 - Recurring Jobs
   - ***EX: Create a Recurring Job***
-- Rules
 - ConnectionInfo Objects
 
 ## 5. XaaS (Anything-as-a-Service)
