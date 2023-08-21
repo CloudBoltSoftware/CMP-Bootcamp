@@ -26,14 +26,16 @@
   - ***[EX: Start shell plus](exercises/shell_plus.md)***
 - [Object Relational Model](02_python_django/orm.md)
   - ***[EX: Query and Update CMP Objects](exercises/models.md)***
-- [Database Migrations](02_python_django/migrations.md)
+  - ***EX: Generate ERDs***
+- [Database Migrations](02_python_django/migrations.md) (internal)
 - [Custom Fields](02_python_django/custom_fields.md)
-  - ***[EX: Working with Custom Fields](exercises/accessing_cfs.md)***
+  - ***[EX: Accessing Custom Fields](exercises/accessing_cfs.md)***
   - ***[Ex: Creating and Attaching CFs](exercises/creating_cfs.md)***
 
 
 ## 3. CloudBolt Object Model
 - [Resource Handlers](03_cb_model/resourcehandlers.md)
+  - ***EX: Connect to vCenter***
   - ***EX: Connect to AWS***
   - ***EX: Connect to Azure***
 - [Images & Templates](03_cb_model/images_templates.md)
@@ -42,28 +44,28 @@
 - [OS Builds](03_cb_model/osbuilds.md)
   - ***EX: Manage OS Builds***
 - [Networks](03_cb_model/networks.md)
-    - ***EX: Import Networks***
 - [Environments](03_cb_model/environments.md)
-  - ***EX: Manage auto-created Environments***
 - [Groups](03_cb_model/groups.md)
   - ***EX: Create Groups***
   - ***EX: Setup Group Approvals***
 - [Parameters](03_cb_model/parameters.md)
+  - ***EX: Tech-specific Parameters***
+  - ***EX: CloudBolt Parameters***
   - ***EX: Parameter Behavior Review***
 - [Pre-Configurations](03_cb_model/preconfigs.md)
   - ***EX: Create Server Size Pre-configuration***
 - [Jobs & Orders](03_cb_model/jobs_orders.md)
-  - ***EX: Explore Object Model for an Order***
-- [Remote Script Execution](03_cb_model/remote_scripts.md)
-  - ***EX: Configure Remote Scripting***
 
 ## 4. Orchestration
+- Actions: CB Plugins
+- [Remote Script Execution](03_cb_model/remote_scripts.md)
+  - ***EX: vCenter Remote Scripting***
+  - ***EX: AWS Remote Scripting***
+  - ***EX: Azure Remote Scripting***
 - Actions
     - CB Plugins
     - Remote Scripts
-    - Webhooks
-    - Email Actions
-    - Other (Terraform, File Copy)
+      
 - Orchestration Actions
   - ***EX: User Data for Agent Install*** 
   - ***EX: Create a Monitoring Action***
