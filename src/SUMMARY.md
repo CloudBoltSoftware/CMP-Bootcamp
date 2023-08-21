@@ -57,12 +57,12 @@
 - [Jobs & Orders](03_cb_model/jobs_orders.md)
 
 ## 4. Orchestration
-- Actions: CB Plugins
+- Actions: CloudBolt Plugins
 - [Remote Script Execution](03_cb_model/remote_scripts.md)
   - ***EX: vCenter Remote Scripting***
   - ***EX: AWS Remote Scripting***
   - ***EX: Azure Remote Scripting***
-- Actions
+- Actions: Remote Scripts
     - CB Plugins
     - Remote Scripts
       
