@@ -30,7 +30,8 @@ def run(job, resource, logger, **kwargs):
                                               label='Initial Unlock Key',
                                               type='STR',
                                               show_as_attribute=True)
-    resource.acme_initial_unlock_key = result
-    resource.save()
+    pattern = re.compile('[\d\w]{30,}')
+    matches = pattern.findall(result)
+    resource.acme_initial_unlock_key = matches[0]
     
     return 'SUCCESS', '', ''
