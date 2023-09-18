@@ -10,6 +10,7 @@
   - ***[EX: CMP on Public Cloud Marketplaces](exercises/marketplaces.md)***
 - [Upgrades](01_appliance/upgrades.md)
   - ***[EX: Upgrade CMP*](exercises/upgrade.md)***
+- Connecting to the Appliance
 - [Getting to know the Appliance](01_appliance/gettingtoknow.md)
   - ***[EX: Explore the CMP Appliance](exercises/explore_appliance.md)***
   - ***[EX: Logging](exercises/logging.md)***
