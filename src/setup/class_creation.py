@@ -3,12 +3,18 @@ import logging
 
 import prov_instance_blueprint
 from cmp.api import CloudBoltConnection
-from settings import STUDENT_NAMES, STUDENT_EMAILS, CB_UID, CB_PWD, CB_HOST
+from settings import (
+    STUDENT_NAMES,
+    STUDENT_EMAILS,
+    ACCOUNT,
+    GROUP,
+    BLUEPRINT_ID,
+    CB_UID,
+    CB_PWD,
+    CB_HOST,
+)
 
 log = logging.getLogger(__name__)
-
-GROUP = "/api/v3/cmp/groups/GRP-f1pfjtyx/"
-ACCOUNT = "Martin Marietta"
 
 
 def parse_response(response):
@@ -29,9 +35,9 @@ def main():
             json_payload["group"] = GROUP
             try:
                 response = conn.post(
-                    url="/blueprints/BP-615goe7r/deploy/",
-                    json=json_payload
+                    url=f"/blueprints/{BLUEPRINT_ID}/deploy/", json=json_payload
                 )
+                log.info(response.content)
                 response.raise_for_status()
                 resource_name = parse_response(response)
             except Exception as ex:
@@ -41,20 +47,23 @@ def main():
                     raise ex
                 exit(1)
 
-            assignments.append({
-                "name": name,
-                "email": email,
-                "instance": f"{resource_name}.poc.cloudbolt.io",
-            })
+            assignments.append(
+                {
+                    "name": name,
+                    "email": email,
+                    "instance": f"{resource_name}.poc.cloudbolt.io",
+                }
+            )
 
     log.info(assignments)
     for assignment in assignments:
         print(
-            assignment['name'],
+            assignment["name"],
             f"https://{assignment['instance']}",
-            assignment['email'],
-            sep='\t')
+            assignment["email"],
+            sep="\t",
+        )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

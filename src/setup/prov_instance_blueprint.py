@@ -21,6 +21,9 @@ JSON = """
                 "upgrade": "No"
             }
         },
+        "script-bdi-qirqrmyd": {
+            "parameters": {}
+        },
         "plugin-bdi-fks6akcj": {
             "parameters": {}
         },
@@ -33,13 +36,7 @@ JSON = """
         "plugin-bdi-n44zihrx": {
             "parameters": {}
         },
-        "plugin-bdi-n89vylhz": {
-            "parameters": {}
-        },
         "plugin-bdi-p7s152lc": {
-            "parameters": {}
-        },
-        "plugin-bdi-rqkea7pb": {
             "parameters": {}
         },
         "script-bdi-0qtodw6q": {
@@ -56,15 +53,14 @@ JSON = """
         },
         "server-bdi-yqga1ii0": {
             "environment": "/api/v3/cmp/environments/ENV-6yokf5je/",
-            "osBuild": "/api/v3/cmp/osBuilds/OSB-mq6y47ab/",
-            "parameters": {}
+            "osBuild": "/api/v3/cmp/osBuilds/OSB-mq6y47ab/"
         }
     },
     "group": "/api/v3/cmp/groups/GRP-yatpvgg8/",
     "parameters": {
         "cbpl__account": "CloudBolt",
         "cbpl__contact_name": "RAK",
-        "expiration_date": "2024-01-01"
+        "expiration_date": "2024-07-01 00:00:00"
     }
 }
 """
