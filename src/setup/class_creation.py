@@ -7,8 +7,8 @@ from settings import (
     STUDENT_NAMES,
     STUDENT_EMAILS,
     ACCOUNT,
-    GROUP,
-    BLUEPRINT_ID,
+    GROUP_GID,
+    BLUEPRINT_GID,
     CB_UID,
     CB_PWD,
     CB_HOST,
@@ -32,12 +32,12 @@ def main():
             json_payload = json.loads(prov_instance_blueprint.JSON)
             json_payload["parameters"]["cbpl__account"] = ACCOUNT
             json_payload["parameters"]["cbpl__contact_name"] = f"{name}/{email}"
-            json_payload["group"] = GROUP
+            json_payload["group"] = f"/api/v3/cmp/groups/{GROUP_GID}/"
             try:
                 response = conn.post(
-                    url=f"/blueprints/{BLUEPRINT_ID}/deploy/", json=json_payload
+                    url=f"/blueprints/{BLUEPRINT_GID}/deploy/", json=json_payload
                 )
-                log.info(response.content)
+                log.debug(response.content)
                 response.raise_for_status()
                 resource_name = parse_response(response)
             except Exception as ex:
@@ -55,7 +55,7 @@ def main():
                 }
             )
 
-    log.info(assignments)
+    log.debug(assignments)
     for assignment in assignments:
         print(
             assignment["name"],
